@@ -1,0 +1,146 @@
+In Object Oriented Paradigm Classes and Objects are foundation or building blocks of Programming.
+
+Class: User defined blueprint  / a design from which objects are created. It represents set of attributes and behaviour(variables and methods).
+Ex: Think a blueprint of colony, in that blueprint some attributes like playground, park, and apartments will be there. We can build colony in new york or in india with the help of that blueprint. So here blueprint is the class. And the created colonies in india and newyork are objects.
+If dog is a class, colour height and weights are states which we represent using variables, and barking walking and eating all are behaviours we use methods to represents these. For class of dog we can create specific objects like tommy, bruno etc.
+
+Variable:
+Instance Variables: Defined inside class but outside of method. And scope of the variables is inside the class. Will be initialised whenever we crete a new object.
+Local Variables: Inside method, block or constructor. And scope is limited to that particular block where those are defined. Initialised when methods are called and destroys when method call finishes
+Static variables: Same like instance but with static keyword. Belongs to owl class but not objects. Only once will initialised shared among all the objects. If we change for one object it will change to all variables
+
+Constructor: Special method which is used to intilized objects, name is same as class.
+Default Constructor: It gets called automatically
+Non Paramerterized: Without arguments;
+Parameterized: With arguments
+
+Package: A mechanism to keep group of classes, interfaces and sub packages which has similar functionalities.It makes developer to find something easily. Modularity, Maintainbility, Security, Organizing
+
+Access Modifiers: Modifiers set the accessibility of classes or methods or any members.
+
+Public: These classes are available everywhere.
+Private: Can not access anywhere except its class itself.
+Protected: Same Package and within the subclass with only child reference.
+Default: Classes for which there is no modifier, then it said to be default. Limited to package.
+we cannot local variable private, protected or public.
+A class or an outer class can not be private or protected. Inner classes can be private or protected.
+
+Non access modifiers:
+Abstarct: a abstract class is a class which is not fully implemented. a abstract method is a method which doesn't have implementation. if a method is abstract, then it s class should be abstract, due to only abstract class are not fully implemented. We can not create obejcts from abstract class
+When a base class, which we dont want to instantize and should have common functionality to each of its derived class with different implementation then we use Abstract class. Code reusability.
+
+Final: classes, methods, variables. To finalise the implementation. intilised once, and we can not change it value. We can not override final method. If a class is final, it can not be inherited any other class.
+static: methods, variables. static variable gets the memory at the time of class loading.
+
+oops: cleaner, reusable, Maintainable, Scalable
+
+Data Hiding: is a technique to hide internal object details i.e, data member.
+Ex: to access google account we need to give credentials. So we actually make object data members as private, and we also create one public function with validation. If provided details correct then only it will pass correct value.
+it provides security.
+
+Note: it is suggested to declare variable with private modifier.
+
+Abstraction: Hiding internal implementation. Achived by interfaces and abstract classes.
+
+Interface: Is a blue print of class which specifies what a class must do. but not now. Interface does not have implementation. Only have method declarations. All the methods are abstract and public by default.
+
+Abstraction is an act of representing featuring without including the background details or explanations. Hiding internal implementation details.
+100% abstraction using interface. 0-100% abstraction using abstract class.
+
+Encapsulation: Grouping up of data members and member functions in a single unit, is Encapsulation. Class is a kind of container.
+Data Hiding + abstraction -> encapsulation
+Tightly encapsulated class: each and every data member is private.
+
+Inheritance : IS-A relationship. Inheritance is a mechanism to create a new class, deriving the old class. a child extends all behaviours of parent class. in a inheritance, total functionlity of parent class is avilable to its child class, is known as Is A relation
+Employee base class, developer and manager child class
+Developer is an Employee
+Manager is an Employee
+Reusability of code
+
+Types of inheritance:
+Single inheritance -> single parent, single child
+Multi level -> more than one level, c extends b, b extends a.
+multiple inheritance -> one child, more parents. We ca not do this with extends, beacuse if both parent classes have same name methods with different implementation can cause issues, like what need to performed. However in interfaces we dont implement methods, we just declare so a class can implement many interfaces.
+Hierachical: Signle parent, Mutiple childs
+Hybrid-> multilevel + multiple
+
+
+Association: Has A relation. establishing relationship between two different classes through their objects.
+Aggregation : if both the entities that are associated can exist independently.
+Collge has a teacher
+Office has a employee
+
+composition: Stronger form of association. both depends on each other.
+Car has a engine
+Man has a heart.
+
+Polymorphism: ability os something to take on many forms.
+method signature : <Method Name> (<Argument types>)
+used by compiler.
+We cannot write same methods with same method signatures.
+
+Method overloading: a class have same name methods, with different method signature
+Ex: sum(int x, int y), sum (int x, int y, int z)
+Compile time polymorphism, early binding.
+We don't have to create and remember different names for functions doing the same thing.
+byte->short->int->long->folat->double
+              |
+              |
+              char
+
+Method Overriding allows a sub class to provide an implementation to the method that id provides an implementation to the method that is provided by its base class. JVM method resolution, it will desides when at run time.
+Type of the referred object determines which version of an overridden method will be executed. Runtime Polymorphsam , late binding.
+
+We can not decrease the visibility of the overriden method
+
+We cannot override final and static methods. Declare methods as final if you want your implementation final. We cannot override private call.
+
+We can call the base class implemeantations in the overriding method using super keyword.
+
+Encapsulation: restircts direct access, bundliing of data members.
+more flexiable, easy unit testing, access control, reduces coupling, and increase cohesion, easy code change
+
+Abstraction: Hiding unneccasry details, provide a data which is necessary
+Higher abstraction, higher excellence and simplicity
+trust
+
+Inheritance: Extending the classes, override the definitions methods.
+
+Cohesion: keeps the same things at the same place.
+Coupling: Connecting parts of machine. A good program will have loose coupilng.
+because if something is tightly coupled then it is hard to replace.
+
+Creational design pattern: object creation mechanism
+Behavioral design pattern: common communication
+Structure Design pattern: how to put objects together, define their relationship
+
+Design Principle: A good design should be manageable, extendable, Less complex, Easy to change.
+Cost of change should be low.
+It is less complex
+it is eay to test.
+
+DRY -> Dont repeat yourself
+KISS -> Keep it simple and stupid
+YAGINI -> You are not gonna need it
+SLAP -> Single level of abstraction
+SOLID:
+S->Single responsibilty Prinicple
+O-> Open Close
+L-> Liskov's Substitution
+I-> Interface Segregation
+D-> Dependency Inversion
+
+DRY -> Don't repeat yourself. Do not try to duplicate code. Use abstraction to implement common methods. violation of DRy leads to WET- > Wasting Everyone's Time
+
+YAGINI -> you arenot gonna need it. dont implement it until you need it.
+just for any futurstic requirement or approches, do not write any irrelevant or additional things in your code.
+
+when we should implement something?
+programming requirement
+cost of implement
+
+SLAP -> single level of abstraction
+functions should not be lengthy, lengthy functions hard to test (read, remember, reuse, leads), leads to duplication, contains many reasons to change, can not be optimised, not developer friendly, low cohesion, high coupling.
+function should not contain different level of abstraction. it should be spitted into small functions.
+
+Delegation Principle: Handing over the responsibility for a particular task to another class or method. Reduces the coupling of methods
