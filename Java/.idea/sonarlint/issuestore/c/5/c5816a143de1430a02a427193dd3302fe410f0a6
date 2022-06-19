@@ -1,0 +1,13 @@
+
+€
+java:S1319"jThe type of "rectangles" should be an interface such as "List" rather than the implementation "ArrayList".( «±û
+…
+java:S1319%"jThe type of "rectangles" should be an interface such as "List" rather than the implementation "ArrayList".(˜Úüıÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(İ›Ç©úÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(È‚æá
+U	java:S106!"9Replace this use of System.out or System.err by a logger.(ñ£Íÿ8ì³¥­–0
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(áˆÎ¿ıÿÿÿÿ8¨İ§­–0
+U	java:S106("9Replace this use of System.out or System.err by a logger.(æ…Æ»8‡õ¨­–0
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(‘ÌÒ´şÿÿÿÿ8‡õ¨­–0
+U	java:S106*"9Replace this use of System.out or System.err by a logger.(¿ãşä8ˆõ¨­–0
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¢õ®­–0

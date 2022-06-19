@@ -1,0 +1,16 @@
+homogeneous: all elements are ssame data type.
+
+Data Structures: Collection of elements.
+
+Array: Homogeneous data
+contiguous
+
+ArrayList are a type of entity known as a generic
+Generics can only work with reference types.
+
+Wrapper Classes
+Byte, Short, Integer, Long
+Float, Double
+Character, Boolean
+
+auto boxing : premetive is directly used for arraylist

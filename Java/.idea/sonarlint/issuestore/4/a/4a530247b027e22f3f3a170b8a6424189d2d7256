@@ -1,0 +1,32 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(À˜Š»
+W
+java:S4973_"<Strings and Boxed types should be compared using "equals()".(Â°šƒøÿÿÿÿ
+W
+java:S4973a"<Strings and Boxed types should be compared using "equals()".(˜ÇÝœùÿÿÿÿ
+W
+java:S4973d"<Strings and Boxed types should be compared using "equals()".(›Ù—íùÿÿÿÿ
+R
+java:S4973f"<Strings and Boxed types should be compared using "equals()".(ÛÓ®
+Q
+java:S4973o"<Strings and Boxed types should be compared using "equals()".(šô—
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ØÁÇj
+A
+java:S1481"+Remove this unused "theRow" local variable.(…€Ô¾
+F
+java:S1481"+Remove this unused "theCol" local variable.(ñåÄšüÿÿÿÿ
+=
+java:S1125"'Remove the unnecessary boolean literal.(Ó™ÝÃ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÐÒØÓüÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(íù¾øÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(ƒÇ÷Ãÿÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(ìþ½Åúÿÿÿÿ
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(Ó’×¸ûÿÿÿÿ
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(ÚŒù²ùÿÿÿÿ
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+U	java:S106:"9Replace this use of System.out or System.err by a logger.(Å¸Þ8ìÿè–0
+U	java:S106F"9Replace this use of System.out or System.err by a logger.(› ÃÌ8îÿè–0
+U	java:S106M"9Replace this use of System.out or System.err by a logger.(›º ¸8™Úé–0
+[
+java:S1764f"ECorrect one of the identical sub-expressions on both sides of equals.(ÛÓ®
