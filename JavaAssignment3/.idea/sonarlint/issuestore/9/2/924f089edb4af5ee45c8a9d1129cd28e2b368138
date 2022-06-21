@@ -1,0 +1,26 @@
+
+o
+java:S2293#"YReplace the type specification in this constructor call with the diamond operator ("<>").(öèº
+†
+java:S1319!"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(½‚éå
+2
+java:S16432"Use a StringBuilder instead.(½áÅ
+0
+java:S1220""Move this file to a named package.
+T
+java:S1854">Remove this useless assignment to local variable "numOfPings".(Ê®œ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¬¡™øÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ŠÕ›³
+E
+java:S1481"/Remove this unused "numOfPings" local variable.(Ê®œ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(±­‡âıÿÿÿÿ
+H
+java:S1481""-Remove this unused "pingData" local variable.(ıªæçüÿÿÿÿ
+B
+java:S1874(",Remove this use of "exec"; it is deprecated.(’ÉÉ
+T	java:S106,"9Replace this use of System.out or System.err by a logger.(Ü²÷#8Æ»ˆÁ–0
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(Ÿ¥ëòûÿÿÿÿ8€“Á–0
+Z	java:S1069"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8äŒ¨Á–0
+H
+java:S1128"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ

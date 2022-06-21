@@ -1,0 +1,19 @@
+
+k
+java:S1104"PMake isOn a static final constant or non-public and provide accessors if needed.(ÈÌŒ˜ûÿÿÿÿ
+p
+java:S1104"UMake staticVar a static final constant or non-public and provide accessors if needed.(õé×çüÿÿÿÿ
+J
+java:S1444"/Make this "public static staticVar" field final(õé×çüÿÿÿÿ
+]	java:S125"<This block of commented-out lines of code should be removed.(äÊÜøüÿÿÿÿ8ş‘§˜•0
+P
+java:S6213":Rename this variable to not match a restricted identifier.(ÄñìŠ
+>
+java:S1481"(Remove this unused "var" local variable.(ÄñìŠ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(šÕ½üÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(úÀ¡Ó
+J
+java:S2209 "5Change this instance-reference to a static reference.(‚Õ„H
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(ã¬çŞ
+K
+java:S2209$"5Change this instance-reference to a static reference.(ã¬çŞ

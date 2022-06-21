@@ -1,0 +1,9 @@
+in java 8 interface is reborn.
+
+interface is the mother of any user library.
+interface unlocked.
+target type of lambda expressions is functional interface.
+We can only assign lambda expressions to functional interfaces.
+
+functional interface: only one abstract method.
+@FunctionalInterface: annotation helps to avoid the inadvertent useof the interface.

@@ -1,0 +1,11 @@
+
+M
+java:S1612
+"7Replace this lambda with method reference 'Movie::new'.(Çñ›ö
+Z
+java:S1854"?Remove this useless assignment to local variable "tradeFinder".(éˆ„†ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Þ´ýúüÿÿÿÿ
+s
+java:S4276"XRefactor this code to use the more specialised Functional Interface 'IntFunction<Trade>'(éˆ„†ùÿÿÿÿ
+K
+java:S1481"0Remove this unused "tradeFinder" local variable.(éˆ„†ùÿÿÿÿ
