@@ -1,0 +1,15 @@
+
+S
+java:S1854"=Remove this useless assignment to local variable "tradeList".(Œ°—©
+h
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Œ°—©
+D
+java:S1481".Remove this unused "tradeList" local variable.(Œ°—©
+W
+java:S1854"<Remove this useless assignment to local variable "tradeSet".(­øèÊøÿÿÿÿ
+H
+java:S1481"-Remove this unused "tradeSet" local variable.(­øèÊøÿÿÿÿ
+^
+java:S1854#"<Remove this useless assignment to local variable "movieMap".(œÀ±Ðüÿÿÿÿ8ÓÌñ¢˜0
+O
+java:S1481#"-Remove this unused "movieMap" local variable.(œÀ±Ðüÿÿÿÿ8ŸËù¢˜0
