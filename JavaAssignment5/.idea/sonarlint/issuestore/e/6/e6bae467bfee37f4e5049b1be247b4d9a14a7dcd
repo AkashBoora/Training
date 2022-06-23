@@ -1,0 +1,8 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(×¤¬
+S	java:S106	"9Replace this use of System.out or System.err by a logger.(äš˜ñùÿÿÿÿ
+J
+java:S1481"/Remove this unused "anotherInt" local variable.(ˆÖÓ¤ûÿÿÿÿ
+K
+java:S1481"0Remove this unused "anotherChar" local variable.(º‚Ô‡ùÿÿÿÿ
+P	java:S125"<This block of commented-out lines of code should be removed.(íšŒs

@@ -1,0 +1,23 @@
+
+\
+java:S1854"FRemove this useless assignment to local variable "notACancelledTrade".(¢üŒƒ
+p
+java:S1854"URemove this useless assignment to local variable "bingCancelledTradeForGoogleIssuer".(ê²ÍĞÿÿÿÿÿ
+]
+java:S1854"GRemove this useless assignment to local variable "cancelledOrBigTrade".(ÑÈ®¿
+B
+java:S1172	",Remove this unused method parameter "trade".(‰«Ì·
+Z
+java:S1612
+">Replace this lambda with method reference 'Trade::isBigTrade'.(‰Ø*8¿ÚÌŒ˜0
+[
+java:S1612"?Replace this lambda with method reference 'Trade::isCancelled'.(ì—ê8ÁÚÌŒ˜0
+N
+java:S1481"8Remove this unused "cancelledOrBigTrade" local variable.(ÑÈ®¿
+h
+java:S1481"FRemove this unused "bingCancelledTradeForGoogleIssuer" local variable.(ê²ÍĞÿÿÿÿÿ8¿‹â‰˜0
+T
+java:S1481"7Remove this unused "notACancelledTrade" local variable.(¢üŒƒ8¦·â‰˜0
+S	java:S106"9Replace this use of System.out or System.err by a logger.(şò¢²üÿÿÿÿ
+I
+java:S1144	"3Remove this unused private "testPredicates" method.(‰«Ì·

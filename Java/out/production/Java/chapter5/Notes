@@ -1,0 +1,6 @@
+string objects does not allow changes.
+strings are immutable
+
+Sting Builder Class
+The object can be modified
+Additional methods are available

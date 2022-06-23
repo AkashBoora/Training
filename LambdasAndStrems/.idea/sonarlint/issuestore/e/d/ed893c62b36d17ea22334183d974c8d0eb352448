@@ -1,0 +1,16 @@
+
+E
+java:S3740
+"/Provide the parametrized type for this generic.(€©é…
+J
+java:S3740"/Provide the parametrized type for this generic.(ÑÆ êûÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(çñÕÔ
+œ
+java:S1186!"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ŸÁúÁùÿÿÿÿ
+—
+java:S1186$"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(»øÖ
+6
+java:S2326" Trade is not used in the method.(Îô¦Ö
+^	java:S119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(Îô¦Ö
+N	java:S106"9Replace this use of System.out or System.err by a logger.(÷Î›
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ïœ¡¿

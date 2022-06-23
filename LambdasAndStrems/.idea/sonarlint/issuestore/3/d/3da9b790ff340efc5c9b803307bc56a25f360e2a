@@ -1,0 +1,7 @@
+
+R
+java:S1612"7Replace this lambda with method reference 'Movie::new'.(ÅÒûŽÿÿÿÿÿ
+R
+java:S1854"7Remove this useless assignment to local variable "ref".(ü±œðûÿÿÿÿ
+C
+java:S1481"(Remove this unused "ref" local variable.(ü±œðûÿÿÿÿ

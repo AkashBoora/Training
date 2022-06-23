@@ -1,0 +1,11 @@
+
+_
+java:S1192	"IDefine a constant instead of duplicating this literal "Balance " 4 times.(¶ÐéÔ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÅÎ§á
+N	java:S106	"9Replace this use of System.out or System.err by a logger.(¶ÐéÔ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¶ÐéÔ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(™ÁÎ˜
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(‘Çî˜
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Â²–¥
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Â²–¥

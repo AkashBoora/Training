@@ -1,0 +1,11 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ª¤­ωÿÿÿÿ
+P
+java:S1854";Remove this useless assignment to local variable "mNames2".(Αρ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(έΪδωÿÿÿÿ8™΅0
+A
+java:S1481",Remove this unused "mNames2" local variable.(Αρ
+_
+java:S1854 "DRemove this useless assignment to local variable "movieEmptyStream".(ΐ±θ¬ύÿÿÿÿ
+P
+java:S1481 "5Remove this unused "movieEmptyStream" local variable.(ΐ±θ¬ύÿÿÿÿ

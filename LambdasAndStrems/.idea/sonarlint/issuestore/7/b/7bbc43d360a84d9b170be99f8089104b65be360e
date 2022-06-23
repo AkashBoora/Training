@@ -1,0 +1,25 @@
+
+]
+java:S3959"GRefactor this code so that this consumed stream pipeline is not reused.(Û“¢×
+M
+java:S1854"7Remove this useless assignment to local variable "sum".(¼ÎÈù
+>
+java:S1481"(Remove this unused "sum" local variable.(¼ÎÈù
+Y
+java:S1854">Remove this useless assignment to local variable "intStream1".(Š÷ÈÑùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Û“¢×
+J
+java:S1481"/Remove this unused "intStream1" local variable.(Š÷ÈÑùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Û“¢×
+]
+java:S1854"BRemove this useless assignment to local variable "tradeStreamSum".(£ÅÜ¯úÿÿÿÿ
+U
+java:S1481"3Remove this unused "tradeStreamSum" local variable.(£ÅÜ¯úÿÿÿÿ8›Ù„¢˜0
+Q
+java:S1128	"4Remove this unused import 'java.util.stream.Stream'.(ó÷”8‘²„¢˜0
+M
+java:S1144"2Remove this unused private "tradeQuantity" method.(Éî­şıÿÿÿÿ
+I
+java:S1144".Remove this unused private "intStream" method.(ªœ˜øÿÿÿÿ
+N
+java:S1144"3Remove this unused private "convertStreams" method.(­×–¯şÿÿÿÿ

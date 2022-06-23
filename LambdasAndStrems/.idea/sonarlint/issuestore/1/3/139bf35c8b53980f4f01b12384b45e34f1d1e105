@@ -1,0 +1,27 @@
+
+Q
+java:S1854
+"6Remove this useless assignment to local variable "m2".(âªÞ©üÿÿÿÿ
+L
+java:S1854	"6Remove this useless assignment to local variable "m1".(ÿ˜¡ã
+=
+java:S1481	"'Remove this unused "m1" local variable.(ÿ˜¡ã
+B
+java:S1481
+"'Remove this unused "m2" local variable.(âªÞ©üÿÿÿÿ
+Q
+java:S1854"6Remove this useless assignment to local variable "m2".(›È´¾üÿÿÿÿ
+Q
+java:S1854"6Remove this useless assignment to local variable "m1".(¿ëÄ„üÿÿÿÿ
+B
+java:S1481"'Remove this unused "m1" local variable.(¿ëÄ„üÿÿÿÿ
+B
+java:S1481"'Remove this unused "m2" local variable.(›È´¾üÿÿÿÿ
+L
+java:S1854"6Remove this useless assignment to local variable "m1".(Ç¬¡à
+=
+java:S1481"'Remove this unused "m1" local variable.(Ç¬¡à
+P
+java:S1118":Add a private constructor to hide the implicit public one.(¯ÚˆÅ
+X
+java:S1144"BRemove this unused private "testMovieArbitaryObjectMethod" method.(×ºÈë

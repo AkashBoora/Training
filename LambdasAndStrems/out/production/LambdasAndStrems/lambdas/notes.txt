@@ -1,0 +1,32 @@
+lambdas -> simple anonymous method implementation
+
+lambdas are blocks of code represents behaviours which can be passed to another methods, which helps to do functional programming
+they don't have any name, it is all about behaviour.
+
+(input arguments) -> body
+arrow token
+
+
+Method referencing: shorthand for lambda expressions. It is an easy way of delegating the call to an existing method.
+
+trade -> trade.isOpen();
+trade::isOpen; we declaring the reference to the method, but not invoking the method.
+
+Constructor Referencing:
+easy to read
+
+TypeInference: compiler can understand the type by understanding the context.
+
+Map <Integer, String> map = new HashMap<Integer,String>();
+Map <Integer, String> map = new HashMap<>();
+
+Reduces Typing
+
+
+(List<Trade> trades, PriceSkewer  priceSkewer) -> {
+/* logic */
+}
+
+(trades, priceSkewer){
+// logic
+}

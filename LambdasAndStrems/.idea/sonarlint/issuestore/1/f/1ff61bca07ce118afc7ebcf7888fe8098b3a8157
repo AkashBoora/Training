@@ -1,0 +1,8 @@
+
+U
+java:S1854"?Remove this useless assignment to local variable "movieStream".(ãéß¸
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Á¨—ùøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(èÌÜ®øÿÿÿÿ
+F
+java:S1481"0Remove this unused "movieStream" local variable.(ãéß¸
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Á¨—ùøÿÿÿÿ

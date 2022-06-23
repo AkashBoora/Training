@@ -1,0 +1,10 @@
+
+i
+java:S1192"GDefine a constant instead of duplicating this literal "Happy " 4 times.(±èñªûÿÿÿÿ8Œî°é•0
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ø´‡øÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ºûø	
+N	java:S106	"9Replace this use of System.out or System.err by a logger.(ôÕÌÃ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(±èñªûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ì­×äşÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(°©ü›úÿÿÿÿ8´î°é•0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ñ•ï”8´ê²é•0

@@ -1,0 +1,10 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ä’€ß
+q
+java:S1612	"VReplace this lambda with method reference 'ConsumerFunctionalInterface.this::persist'.(ÛˆëÍüÿÿÿÿ
+k
+java:S1612"UReplace this lambda with method reference 'ConsumerFunctionalInterface.this::notify'.(ãåÖÌ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(‰Çøò
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ŠÐ¯Û
+\
+java:S1128":Remove this unused import 'java.util.concurrent.Callable'.(¾×¶îûÿÿÿÿ8ð Ö ˜0

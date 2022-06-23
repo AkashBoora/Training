@@ -1,0 +1,8 @@
+
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÍŠ†îüÿÿÿÿ
+]	java:S125"<This block of commented-out lines of code should be removed.(û·÷ôûÿÿÿÿ8Ëé£½•0
+S	java:S106"9Replace this use of System.out or System.err by a logger.(³íº½ÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ž‰ÙÎ
+]
+java:S2094"BRemove this empty class, write its code or make it an "interface".(³¹å¶üÿÿÿÿ
