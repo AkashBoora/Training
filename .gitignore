@@ -4,11 +4,3 @@ bin/
 build/
 /bin1/
 java/build/**
-.idea/
-*.iml
-*.iws
-*.jar
-*.war
-*.ear
-
-
