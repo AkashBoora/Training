@@ -1,0 +1,17 @@
+managing redudancy
+->identify possible redandency
+->Eliminate unwated redudandency
+->Support Organizational policies
+->Update orientation
+
+Logical databse -> not conecerned with effieient implmentation, conecerned with conceptual data model
+
+covert -> specify ->normalize -> refine
+erd to intial table design -> redundancy constraints -> eliminate unwated redandancies -> uniquesness contraints 
+
+
+Schema Conversion
+entity type rule  -> 1-m relationship rule -> m-n relationship rule -> identifying retionshiprule
+tables -> fk in child tables -> assosiate tables plus fk, combined pk -> coomponents of pk
+
+

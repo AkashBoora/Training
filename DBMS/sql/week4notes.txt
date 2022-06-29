@@ -1,0 +1,80 @@
+Broad Goals of database devlopment
+Devlop a common vocabulary ->
+Define business rules ->meaning of database
+Ensure Data Quality
+Provide efficint Implementation
+
+Database devlopment phases
+
+data Requirements -> Conceptional Data Moduling (ERD) -> Logical DatabaseDesign(Tables) -> Distributed Database Design (Distribution Schema) -> Physical Database Design -> Internal Schema Populated Db
+ 
+ 
+ Basic ER Notation
+ 
+  ERD's basic elements
+  Entitiy types - collection of physical things such as books people places as well as events such as payments. an entity is a instanse of entity type
+  relations - 
+  attributes - ARE properties of entity types and relationships
+  
+  An entity should have a primary key, as wellas other descriptive attributes.
+  attributes are shown inside an entity type rectangle 
+  underlined atibutes serves as primary key 
+  
+  crows foot notation
+  rectangle denotes entity type
+  
+  Entitiy types -> Nouns
+  Relationships verbws
+  
+  cardinalities
+  the number of objects taht participate in a relationship
+  
+identification dependancy:
+
+weak entity type: barrows part or entire primary key
+identifing relationship: provides a component of a primary key for a weak entity type.
+identification dependency: a weak entity type and one or more identifing relationships
+
+a room does not have an identity separate from its building beacuase a room is physically contained in  a building. We can reference a room only by providing its associated building identifier. In the ERD for buildings and rooms, the room entity type is identification-dependent on the building entity type in the contains relationship.
+contains relationship
+
+provides many to many( two one to many)
+
+
+
+Existence Dependency: This is the type of dependency which exists when one entity instance needs instance of another entity for its existence. For example, an entity MOVIE COPY can not exist without entity MOVIE. Here in this example, entity type MOVIE is considered as parent entity and MOVIE COPY as child entity.
+Identifier Dependency: It means that the dependent entity (MOVIE COPY) in case of existence dependency does not have its own identifier and any external identifier is used to pick data for that entity. And to define a key in this entity the key of the parent entity (MOVIE) is to be used in the key for this entity may be used as composite keys.
+Referential Dependency: This is the situation when the dependent entity (MOVIE COPY) has its own key for unique identification but the key used to show the reference with the parent entity (MOVIE) is shown with the help of an attribute of the parent entity. Means to show the link of the parent entity with this entity there will be an attribute and a record in this entity will not exist without having a record in the parent entity. Despite of having its own identifier attribute. This type of identifier or attribute in the weak entity (MOVIE COPY)  is known as foreign key.
+
+
+A self-referencing relationship involves connections among members of the same set.
+Self-referencing relationships are sometimes called reflexive relationships, because they are like a reflection in a mirror.
+
+Any set that can be visualized as a hierarchy can be represented as a self-referencing relationship. Typical examples include hierarchical charts of accounts, genealogical charts, part designs, and transportation routes. In these examples, self-referencing relationships are an important part of the database. For self-referencing relationships, it is important to distinguish between one-to-many and many-to-many relationships.
+
+
+An M-way relationship involves an association of more than two entity types. The crow's foot notation only supports binary relationships, so M-way relationships cannot be directly represented. Instead, an M-way relationship is indirectly represented as an associated entity type and a collection of one-to-many relationships.
+The typical value for M is three, as relationships involving more than three entity types are very rare in practice.
+
+An M-way relationship involves an association of more than two entity types. The crow's foot notation only supports binary relationships, so M-way relationships cannot be directly represented. Instead, an M-way relationship is indirectly represented as an associated entity type and a collection of one-to-many relationships.
+Play video starting at :3:58 and follow transcript3:58
+The typical value for M is three, as relationships involving more than three entity types are very rare in practice.
+
+ERD rules:
+ All entity types have a PK
+ All entity types, relationships and attributes have a name
+ cardinality is specified in both firections for each relationship
+ all entity types participate in at least one relationship
+ 
+ 
+ Primary Key issue:
+ -> is simple in most case
+ -> For some weak entirs, the pk rule subtle
+       weak entity type with only one 1-M identifing relationship
+	   Weak entity type must have a local key to augment the barrowes PK from the Parent entitty Type
+	   violation of Pk rule is local is missing
+
+Entitty Name Rule:
+-> Entity type names must be unique
+-> Attribute names must be unique with in each entity type and relationship
+

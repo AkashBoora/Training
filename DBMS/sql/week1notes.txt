@@ -1,0 +1,75 @@
+Data: Data are facts
+Conventional raw facts
+Non conventional facts - Images, maps, fingerprint
+
+DataBase: 
+Peristancy: relaible long term memory
+Inter - related: relationships
+Shared:
+
+for univercity
+Entities:
+Students, faculty, Courses, Course Offerings, Enrollments
+Relationships: Facukty course assignments
+Student enrikkment
+Course Scheduling
+
+
+ERD : Entity Relationship Diagram
+is a type of data modeling that shows a graphical representation of objects or concepts with in an infromation system or organization and their relationship to one another.
+
+Difference bw Excel / DBMS
+Planning is not necessary  for spreadsheet, planning is essential for database
+
+DBMS: A collection of components that supports the creation, use and maintanence of data base/
+Features
+Data Acquisition
+Storage
+Dissemination
+Maintanance
+Retrival
+Formatting
+
+SQL: Structured Query Language
+
+Query: A database query can be either a simple data retrival query or an action query that performs additional operations on the data, such as insertion, updating or deletion
+
+Non procedural access allows users with limited computing skills to submit quries
+no need of loops
+reduce the no of lines
+a DBMS performs the detailes planning process to answer queires expressed in a non-procedual language
+
+Procedural Language Interface: Batch processing, Customization and automation, Performance improvement
+
+Transaction Processing:
+A transaction is interaction among two or more parties for the conduct of business
+A data base transaction involves a collection of operations that must be reliably processed is one unit work.
+A transaction must either succeed or the entire transaction is cancelled
+
+Transaparent: inner details of trasaction services are invisible
+
+
+Lower - Operational
+Middle - Annual Decisions
+Top - Long run stretagies
+
+
+Data WareHousse: centralized data repository where data from operational databases and other sources are integrated cleaned ansdstandaridized to suppport business intelligence.
+
+Transaction Processing:  Primary data in operational databases, Large volumes of transactions with small amounts of data, some reporting requiremnets for operations.
+
+Business intelligence processing: Secondary data from operational databases, Substancial processing for transformers and integration, Large volumes of data reporting
+
+Individual level Data: Provides flexibility for responding to a wide range of business intelligence needs.
+
+Summerized Data: Provides fast response to repetative queries.
+
+Central repositories in data warehouse usually can be populated from : Operational database and external sources
+
+Data warhouse processing supports tactical (medium term impact) and strategic(long term impact) decision making
+
+History:
+1st gen: Supported sequential and random searching of files
+2nd gen: could  manage entity tyoes and relationships computer progran still had to be written ,
+3rd gen: relational databes, mathamatical relationships and associated operators,  IBM
+4th gen : are extending the boundaries of database technology, New Kinds of distributed processing and data warehouse processing, can store and maipulate unconventional data types. Convienient ways to publish static and dynamic web data, Object oriented 

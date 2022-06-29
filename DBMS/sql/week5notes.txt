@@ -1,0 +1,30 @@
+goal:
+
+a database should provide a vocabulary for a large community of users, support organizational policies, contain high quality data and provide efficient access.
+The concepts and skills for conceptual data modeling primarily support the subgoals of developing a common vocabulary in active support of organizational policies.
+A database provides a common vocabulary for an organization.
+Before a database is implemented, different parts of an organization may have different terminology. For example, there may be multiple formats for addresses. Multiple ways to identify customers and different ways to calculate interest rates.
+After a database is implemented, communication can improve among different parts of an organization.
+Thus, a database can unify an organization by establishing a common vocabulary. 
+Achieving a common vocabulary is not easy. Developing a database requires compromise to satisfy a large community of users. In some sense a good database designer share some characteristics with a good politician. 
+]A good politician often finds solutions with which everyone finds something to agree and disagree and establishing a common vocabulary. A good database designer also find similar imperfect solutions.
+
+narrative problem statement
+consistant
+identify deficienies
+prefer simpler designs
+identify potential refienements
+
+
+idenity entity types and attributes: important Nouns, details about nouns preferencce for a simple design
+
+Determine primary keys: stable, single purpose
+\connect entity types: entity types to connect, minimum and maximum cardinalities, prefernce for a simpler design
+
+Desugn transformations
+attribute expansion
+Compound attribbute spilt
+Entity type Expansion
+Weak entity type to strong entity type
+
+to save historyn

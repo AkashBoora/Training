@@ -1,0 +1,52 @@
+Modules 3
+Relational Data Model
+
+Why is the relational data model commercially dominant?
+
+Relational db devloped because familiriaty and similarity
+
+relational database is a collection of tables
+headings: table name and column names
+Body: rows and occurance of data
+matching values we connect db
+
+Table Oriented			Set Oriented			Recoed Oriented
+Table						Relational				Record Type,File
+Row							Tuple					Record
+Column						Attribute				Field
+
+
+Integrity Rules:
+Null values: Absense of a value(missing value), Actual value unknown or not applicable for a row.
+Primary Key: Column or combination of columns with unique values in each row, no exttraneous columns
+Foreign Key: Column or combination of columns related to a primary key in another table which is related. Same data type and often same name as releated PK
+
+Entity Integrity
+primary key for each table
+a primary key can not have null values
+Entities integirity ensures entities people things places
+
+Referential Integrity
+column valus in one tablemust match column values in another table which is related
+some foreign keys can allow null value, most foreign keys do not allow null values
+two kinds of values for a foreign key in a row
+ensures valid refernces among table
+
+In er diagram
+p -> primary key
+f -> foriegn key
+pf -> part of primary key and foreign key
+lines represent relations
+appering next to the arrow is parent
+appearing next to the foot symbol is child
+solid line repreasents foriegn key can not have missing values
+dashed line, foreign key canhave missing values
+
+
+datatypes
+char (L)characters(l) fixed length
+varchar (L) characters varying length
+integer for numbers
+float(p) no of positions
+decimal(w,r)  w-> total noof digits  r-> number of digits to the right of the decimal point
+date, time, timestamp
