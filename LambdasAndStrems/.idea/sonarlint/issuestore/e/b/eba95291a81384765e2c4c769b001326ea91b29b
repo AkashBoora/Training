@@ -1,0 +1,19 @@
+
+t
+java:S1104"YMake getInstrument a static final constant or non-public and provide accessors if needed.(„§úÿÿÿÿ
+†
+java:S4165"dRemove this useless assignment; "status" already holds the assigned value along all execution paths.(‰«Íúÿÿÿÿ8ßÚÌŒ˜0
+ˆ
+java:S4165"fRemove this useless assignment; "quantity" already holds the assigned value along all execution paths.(¸»À¤ùÿÿÿÿ8ßÚÌŒ˜0
+„
+java:S4165"gRemove this useless assignment; "tradeName" already holds the assigned value along all execution paths.(£Â‡8ßÚÌŒ˜0
+|
+java:S1845,"_Rename method "getInstrument" to prevent any misunderstanding/clash with field "getInstrument".(ùñÎ‘8Ó«Â£˜0
+\
+java:S1126"AReplace this if-then-else statement by a single return statement.(ÓòÚÈÿÿÿÿÿ
+Q
+java:S1656"/Remove or correct this useless self-assignment.(¸»À¤ùÿÿÿÿ8ãÚÌŒ˜0
+L
+java:S1656"/Remove or correct this useless self-assignment.(£Â‡8ãÚÌŒ˜0
+Q
+java:S1656"/Remove or correct this useless self-assignment.(‰«Íúÿÿÿÿ8ãÚÌŒ˜0

@@ -1,0 +1,92 @@
+use intercollege_athletics;
+
+CREATE TABLE Customer 
+ (CustNo VARCHAR(8) NOT NULL, 
+  CustName VARCHAR(30) NOT NULL, 
+  Address VARCHAR(50) NOT NULL, 
+  Internal CHAR(1) NOT NULL, 
+  Contact VARCHAR(35) NOT NULL, 
+  Phone VARCHAR(11) NOT NULL, 
+  City VARCHAR(30) NOT NULL,
+  State VARCHAR(2) NOT NULL, 
+  Zip VARCHAR(10) NOT NULL,
+  CONSTRAINT PKCustomer PRIMARY KEY (CustNo) ) ;
+  
+  
+  CREATE TABLE Facility
+(FacNo VARCHAR(8) NOT NULL, 
+ FacName VARCHAR(30) NOT NULL,
+ CONSTRAINT PKFacility PRIMARY KEY (FacNo), 
+ CONSTRAINT UniqueFacName UNIQUE(FacName));
+ 
+ CREATE TABLE Location
+(LocNo VARCHAR(8) NOT NULL, 
+ FacNo VARCHAR(8) NOT NULL, 
+ LocName VARCHAR(30) NOT NULL,
+ CONSTRAINT PKLocation PRIMARY KEY (LocNo),
+ CONSTRAINT FKFacNo FOREIGN KEY (FacNo) 
+   REFERENCES Facility (FacNo) );
+   
+CREATE TABLE Employee
+(EmpNo VARCHAR(8) NOT NULL, 
+ EmpName VARCHAR(50) NOT NULL, 
+ Department VARCHAR(30) NOT NULL,
+ Email	VARCHAR(50) NOT NULL,
+ Phone	CHAR(15) NOT NULL,
+ CONSTRAINT PKEmployee PRIMARY KEY (EmpNo));
+ 
+ CREATE TABLE ResourceTbl
+ ( ResNo  VARCHAR(8) NOT NULL,
+   ResName VARCHAR(50) NOT NULL,
+   Rate INTEGER NOT NULL,
+   CONSTRAINT PKResourceTbl PRIMARY KEY (ResNo));
+   
+CREATE TABLE EventRequest
+(  EventNo VARCHAR(8) NOT NULL,
+   DateHeld DATE NOT NULL,
+   DateReq DATE NOT NULL,
+   CustNo VARCHAR(8) NOT NULL,
+   FacNo VARCHAR(8) NOT NULL,
+   DateAuth DATE,
+   Status VARCHAR(10) NOT NULL,
+   EstCost INTEGER NOT NULL,
+   EstAudience INTEGER NOT NULL,
+   BudNo VARCHAR(8),
+   CONSTRAINT PKEventRequest PRIMARY KEY (EventNo),
+   CONSTRAINT FKCustNo FOREIGN KEY (CustNo) 
+   REFERENCES Customer (CustNo),
+   CONSTRAINT FKFacNoEvent FOREIGN KEY (FacNo) 
+   REFERENCES Facility (FacNo) );
+   
+CREATE TABLE EventPlan
+(  PlanNo VARCHAR(8) NOT NULL,
+   EventNo VARCHAR(8) NOT NULL,
+   WorkDate DATE NOT NULL,
+   Notes VARCHAR(50),
+   Activity VARCHAR(30) NOT NULL,
+   EmpNo VARCHAR(8), 
+   CONSTRAINT PKEventPlan PRIMARY KEY (PlanNo),
+   CONSTRAINT FKEventNo FOREIGN KEY (EventNo) 
+   REFERENCES EventRequest (EventNo),
+   CONSTRAINT FKEmpNo FOREIGN KEY (EmpNo) 
+   REFERENCES Employee (EmpNo) );
+   
+CREATE TABLE EventPlanLine
+(  PlanNo VARCHAR(8) NOT NULL,
+   LineNo VARCHAR(8) NOT NULL,
+   TimeStart DATETIME NOT NULL,
+   TimeEnd DATETIME NOT NULL,
+   NumberFld INTEGER NOT NULL,
+   LocNo VARCHAR(8) NOT NULL,
+   ResNo  VARCHAR(8) NOT NULL,
+   CONSTRAINT PKEventPlanLine PRIMARY KEY (PlanNo, LineNo),
+   CONSTRAINT FKPlanNo FOREIGN KEY (PlanNo) 
+   REFERENCES EventPlan (PlanNo),
+   CONSTRAINT FKLocNo FOREIGN KEY (LocNo) 
+   REFERENCES Location (LocNo),
+   CONSTRAINT FKResNo FOREIGN KEY (ResNo) 
+   REFERENCES ResourceTbl (ResNo));
+   
+
+   
+   

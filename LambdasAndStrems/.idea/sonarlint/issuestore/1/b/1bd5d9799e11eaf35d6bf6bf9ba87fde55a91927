@@ -1,0 +1,10 @@
+
+^
+java:S1854"CRemove this useless assignment to local variable "empPartitioning".(’³Œèøÿÿÿÿ
+O
+java:S1481"4Remove this unused "empPartitioning" local variable.(’³Œèøÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Òÿ‹¼
+Y
+java:S1854"CRemove this useless assignment to local variable "empPartitioning".(Ì‡Æ—
+J
+java:S1481"4Remove this unused "empPartitioning" local variable.(Ì‡Æ—

@@ -1,0 +1,35 @@
+modification anomoly ->insert, delete, update
+
+functional depedency,
+constraint on the possible rows in a table
+value neutral like PK and FK
+Asserted
+Understand business rules
+
+X determines Y or X -> Y
+for each x value, there is at most one Y value
+StdNo -> StdCity if each student values has at most oneStdCity values
+x lhs
+y rhs
+
+Unique Constraint analogy
+similar to uniqueness constraint
+places rhs and lhs table by themseleves
+
+Falsification of fds using sample rows
+-> prove non existannce by  looking at data
+
+
+Normalization: process of removing unwanted redundancies from design
+
+The input to normalizations list of functional dependncies in a table deisgn includeing designation of unique columns
+Appling normal form involves detecting violations of the allowable pattern of fd and splitting original table into smaller table if a voilation is found
+
+BCNF Procedure
+-> group  fds -> same determinant
+-> define tables -> each fd group, determinent as pk, fks
+-> merge tables -> containment, prevents excessive splitting
+
+refinement normalization better than intial normalization 
+
+Denormalization : purposeful violation of a normal form(easy to query, difficult to modify)

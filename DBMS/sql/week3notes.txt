@@ -1,0 +1,29 @@
+sql -> square (IBM)
+
+Stand alone -> user submits 
+Embedded -> program submitss
+
+Definartion -> creates
+Manipultes -> Retrives or change rows
+Control -> proper usage of a database (row_integrity, and security)
+
+SQL -> broad language with weak conformance(reduces portability and higher switching costs)
+
+
+select -> <columns names>
+from <table name>
+where <conditions> and or logical expressions
+order by <sorting>
+
+cross join easy to read, but does not support a less used to way combine tables, known as the outter join operator
+join condition shoulld not be in where clause
+
+rows			Groups			result
+from			group by		order by
+where		having			select
+
+query formualtion
+
+Problem Statement -> Database Representation -> Database Language Statement
+
+Poor Coding Prctises

@@ -1,0 +1,21 @@
+
+]
+java:S1854"BRemove this useless assignment to local variable "cancelledTrade".(šÿõ€þÿÿÿÿ
+N
+java:S1481"3Remove this unused "cancelledTrade" local variable.(šÿõ€þÿÿÿÿ
+R
+java:S1854"<Remove this useless assignment to local variable "firstAny".(¢äÅó
+C
+java:S1481"-Remove this unused "firstAny" local variable.(¢äÅó
+T
+java:S1854"?Remove this useless assignment to local variable "rottenTrade".(¯‚
+E
+java:S1481"0Remove this unused "rottenTrade" local variable.(¯‚
+U
+java:S1854""?Remove this useless assignment to local variable "rottenTrade".(®þ…¤
+F
+java:S1481""0Remove this unused "rottenTrade" local variable.(®þ…¤
+Y
+java:S1854'">Remove this useless assignment to local variable "firstTrade".(ÆúòÕýÿÿÿÿ
+J
+java:S1481'"/Remove this unused "firstTrade" local variable.(ÆúòÕýÿÿÿÿ
